@@ -1,4 +1,77 @@
+/*Set the font-family */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');
+
+/*Created responsive grids */
+.container{
+  padding:10px;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-gap:20px 10px; 
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-self: space-evenly;
+  border:1px solid  rgb(211, 201, 201);
+}
+
+.container > div{
+  padding:20px;
+  border:1px solid  rgb(211, 201, 201);
+}
+
+/* Style each division seperately*/
+
+#div1{
+  font-weight: bolder;
+  text-align: center;
+  height: 230px;
+  width: 150px;
+}
+
+#div2{
+  font-weight: bolder;
+  text-align: center;
+  height: 230px;
+  width: 150px;
+}
+
+#div3{
+  height: 230px;
+  width: 150px;
+  border:0px ;
+}
+
+#div4{
+  font-weight: bold;
+  text-align: center;
+  height: 230px;
+  width: 150px;
+}
+
+#div5{
+  font-weight: bolder;
+  text-align: center;
+  height: 230px;
+  width: 150px;
+}
+
+#super{
+  font-weight: normal;
+}
+
+#value{
+  font-size: xx-large;
+}
+
+#score{
+  font-weight: bolder;
+  font-size: xx-large;
+  text-align: center;
+  top: -60px;
+  position: relative;
+}
+
 .footer{
-  margin-left : 80px;
-  font-size : 18px;
+  text-align: left;
+  font-size: 20px;
 }
